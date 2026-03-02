@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+// WAP to count the digits of a given number
+
+int main(){
+    int n;
+    cout << "Enter a number: ";
+    cin>>n;
+    int count=0;
+    while (n!=0)
+    {
+        n=n/10;
+        count++;
+    }
+    cout << "Total digits: "<<count;
+
+    return 0;
+}
