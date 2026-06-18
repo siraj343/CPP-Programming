@@ -7,12 +7,12 @@ void usa(){
 }
 
 void india(){
-    cout << "You are in India"<<endl;
+    cout << "Your in india"<<endl;
     usa();
 }
-int main(){
+int main (){
     cout << "You are in main"<<endl;
-    usa();
     india();
+    usa();
     return 0;
 }
