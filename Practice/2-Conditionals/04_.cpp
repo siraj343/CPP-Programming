@@ -1,6 +1,17 @@
 #include<iostream>
 using namespace std;
 
+
+/*
+Question 4 (Moderate)
+
+Take a student's marks as input.
+
+35 to 100  -> Pass
+0 to 34    -> Fail
+Otherwise  -> Invalid Marks
+*/
+
 int main() {
     int marks;
     cout <<"Enter your marks: ";

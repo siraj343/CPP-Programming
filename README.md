@@ -8,6 +8,7 @@ This repository contains my C++ practice programs and notes while learning C++.
 - Loops
 - Patterns
 - Functions
-- Recursion (in progress)
+- Recursion 
+- Practice
 
 More topics will be added as I continue learning.

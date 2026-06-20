@@ -1,6 +1,19 @@
 #include<iostream>
 using namespace std;
 
+
+/*
+Question 3 (Moderate)
+
+Take three integers as input.
+
+Print the largest number.
+
+If all three numbers are equal,
+print:
+All numbers are equal.
+*/
+
 int main() {
     int a, b, c;
     cout <<"Enter three numbers: ";
