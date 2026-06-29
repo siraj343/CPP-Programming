@@ -1,10 +1,10 @@
 #include<iostream>
 using namespace std;
 
-void print(int x, int n){
-    if (x>n) return;
-    cout<<x<<endl;
-    print(x+1, n);
+void print(int i, int n){
+    if (i>n) return;
+    cout<<i<<endl;
+    print(i+1, n);
 }
 int main() {
     int n;
